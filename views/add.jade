@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    div(class='container')
+        div(class='collapse navbar-collapse')
+            a(href='/photographers' title='List Photographers') List Photographers
+        h2 Add a New Photographer
+        form(method='post', action='/products/add')
+            div(class='row control-group')
+                label Photographer
+                input(name='photographer', required, placeholder='photographer')
+            div(class='row control-group')
+                label Logo
+                input(name='logo', required)
+            div(class='row control-group')
+                label Type
+                input(name='type', required, placeholder='type')
+            div(class='row control-group')
+                label Location
+                input(name='location', required, placeholder='location')
+            div(class='row control-group')
+                label Price
+                input(name='price', required, placeholder='price')
+            div(class='row control-group')
+                label Rating
+                input(name='rating', required, placeholder='rating')
+            input(type='submit', value='Add Photographer')
+   
+            
+            
+            
+            
+            

@@ -1,0 +1,30 @@
+/************************************\
+ *           MAIN STYLES            *
+\************************************/
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(89, 159, 145); 
+}
+/*************************************\
+ *          HEADER STYLES            *
+\*************************************/
+header{
+
+    
+}
+a {
+    color: #022a19;
+    float: right;
+}
+h1 img{
+    outline: 2px solid red;
+    float: left;
+    margin-top: -20px;
+}
+h1{
+
+    color: #cff405; 
+    text-align: center;
+    clear: both;
+}

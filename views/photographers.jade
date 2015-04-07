@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    div(class='row')
+        h2= Photographer List
+        p this is some text
+        table   
+            thead
+                th Photographer
+                th Type
+                th Location
+                th Price Range
+                th Rating
+            tbody   
+                each photographer, i in photographers
+                    tr 
+                        td #{photographer.name}
+                        td #{photographer.type}
+                        td #{photographer.location}
+                        td #{photographer.price}
+                        td #{photographer.rating}
+                        
